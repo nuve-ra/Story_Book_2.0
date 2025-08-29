@@ -27,7 +27,6 @@ export const saveStoryToDB = async (
         ageGroup: formData?.ageGroup ?? '',
         storyType: formData?.storyType ?? '',
         storySubject: formData?.storySubject ?? '',
-        imageStyle: formData?.imageStyle ?? '',
         output: JSON.parse(output),
         userEmail: userEmail,
       })
